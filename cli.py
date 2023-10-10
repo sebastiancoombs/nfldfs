@@ -2,7 +2,7 @@
 import click
 from datetime import date
 
-from nfldfs import games as games
+from nfldfs.games import games as games
 
 
 # Options for command line interface

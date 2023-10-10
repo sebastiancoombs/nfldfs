@@ -11,8 +11,8 @@ import numpy as np
 import pandas as pd
 import requests
 
-from nfldfs.utils import game_parameters_validator
-from nfldfs.constants import CURRENT_SEASON, CURRENT_SEASON_BASE_URL, PREVIOUS_SEASON_BASE_URL
+from .utils import game_parameters_validator
+from .constants import CURRENT_SEASON, CURRENT_SEASON_BASE_URL, PREVIOUS_SEASON_BASE_URL
 
 
 # Function to create game search parameters
